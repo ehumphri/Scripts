@@ -4,6 +4,11 @@
 #
 # This tool decrypts the cpassword attribute value embedded in the Groups.xml file stored in the domain controller's Sysvol share.
 #
+# original blog (seems to be broken):
+# http://esec-pentest.sogeti.com/exploiting-windows-2008-group-policy-preferences
+#
+# pycrypto bug #1018283
+# https://bugs.launchpad.net/pycrypto/+bug/1018283
 
 import sys
 from Crypto.Cipher import AES
